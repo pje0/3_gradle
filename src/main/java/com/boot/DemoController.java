@@ -21,7 +21,7 @@ public class DemoController {
 	
 	@RequestMapping("/hello.do")
 	public String hello(Model model) {
-		log.info("hello!");
+		log.info("hello! 111");
 		
 		model.addAttribute("message","hello.jsp 입니다!");
 		
